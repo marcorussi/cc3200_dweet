@@ -6,8 +6,8 @@ A simple dweet.io client demo application based on TI CC3200 chip-set with Energ
 
 This demo attempts to connect to the defined WiFi network and in case of a success then a connection to [dweet.io](https://www.dweet.io) server is estalished. In case of fail to connect the red LED is turned ON else, upon connection success, the green LED is turned ON. After that a periodic request to get the latest "thing" content is performed. A related LED (yellow on CC3200 Launchpad) is turned ON or OFF when *led_test* field is respectively *on* or *off*.
 For setting the thing contest copy and paste links below in your browser:
-- turning led ON: http://dweet.io/dweet/for/test_cc3200?led_test=on
-- turning led OFF: http://dweet.io/dweet/for/test_cc3200?led_test=off
+- turning led ON: http://dweet.io/dweet/for/%7Btest_cc3200%7D?led_test=on
+- turning led OFF: http://dweet.io/dweet/for/%7Btest_cc3200%7D?led_test=off
 
 
 **Configuring the WiFi network SSID and password**
